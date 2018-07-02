@@ -4,11 +4,12 @@ import function.CutyCry;
 import function.LoudCry;
 import people.KimJunHyuck;
 import people.LeeYangHee;
+import people.Person;
 
 public class Main {
 
 	public static void main(String[] args) {
-		LeeYangHee leeYangHee = new LeeYangHee();
+		Person leeYangHee = new LeeYangHee();
 
 		try {
 			System.out.println("[첫번째 사람]");
@@ -23,7 +24,7 @@ public class Main {
 		
 		System.out.println();
 		
-		KimJunHyuck kimJunHyuck = new KimJunHyuck();
+		Person kimJunHyuck = new KimJunHyuck();
 
 		try {
 			System.out.println("[두번째 사람]");
