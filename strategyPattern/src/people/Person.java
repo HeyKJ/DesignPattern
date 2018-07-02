@@ -4,15 +4,8 @@ import function.Cry;
 
 public abstract class Person {
 
-	private Cry cry = null;
-
-	//울음 소리 지정
-	public void setCryType(Cry cry) {
-		this.cry = cry;
-	}
-	
 	//울음 소리 실행
-	public void excuteCry() throws Exception {
+	public void excuteCry(Cry cry) throws Exception {
 		if(cry == null) throw new NullPointerException("cry is null! please call setCryType method...");
 		else cry.cryPerson();
 	}
