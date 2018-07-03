@@ -1,8 +1,9 @@
 package people;
 
 import function.cry.Cry;
+import templete.TempleteAfterCry;
 
-public abstract class Person {
+public abstract class Person implements TempleteAfterCry {
 
 	//울음 소리 실행
 	public void excuteCry(Cry cry) throws Exception {

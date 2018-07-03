@@ -27,6 +27,9 @@ public class Main {
 			
 			leeYangHee.hurt(); //인간의 실수는 끝이 없다. 양희는 또다시 불닭볶음면을 먹었다.
 			leeYangHee.excuteCry(new SilenceCry()); //조용한 울음 소리로 실행, 더이상 양희에게는 울 힘이 남아있지 않다.
+			leeYangHee.afterCrying(); //양희가 울고나서 무얼 하는지 보자.
+			leeYangHee.oneDayPassedAfterCrying(); //양희가 울고나서 1일 후 무얼 하는지 보자.
+			leeYangHee.oneWeekPassedAfterCrying(); //양희가 울고나서 일주일 후 무얼 하는지 보자.
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -42,7 +45,10 @@ public class Main {
 			kimJunHyuck.hurt(); //준혁이는 생긴걸로 놀리면 우울증이 온다
 //			kimJunHyuck.excuteCry(new CutyCry()); //귀여운 울음 소리로 실행, 생긴거와 다르게 귀여운 구석을 찾아볼 수 있다
 			kimJunHyuck.excuteCry(new AdapterCry(new CutyCry(), new CutyExpression())); //귀여운 울음 소리와 함께 귀여운 표정까지 더해져 실행한다.
-
+			kimJunHyuck.afterCrying(); //준혁이가 울고나서 무얼 하는지 보자.
+			kimJunHyuck.oneDayPassedAfterCrying(); //준혁이가 울고나서 1일 후 무얼 하는지 보자.
+			kimJunHyuck.oneWeekPassedAfterCrying(); //준혁이가 울고나서 일주일 후 무얼 하는지 보자.
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
